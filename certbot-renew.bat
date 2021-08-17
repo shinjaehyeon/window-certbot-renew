@@ -18,4 +18,4 @@ certbot renew
 @REM nginx 가 실행중이었다면 nginx 재실행하기
 if "%isNginxStarting%" == "true" %~dp0nginx-start.vbs
 
-pause
+@REM pause
